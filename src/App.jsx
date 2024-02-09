@@ -89,7 +89,7 @@ setEdit({
     <>
       <Navbar  dark={ dark} changeTheme={changeTheme}/>
       <div className="main-container ">
-        <div className="container p-5 my-5 shadow-lg w-50 ">
+        <div className="container p-5 my-5 shadow-lg ">
           <Form saveTodo={savetodo} edit= {edit} updateTodo={updateTodo}/>
           <ListGroup todos = { todos} deleteTodo ={ deleteTodo} editTodo = { editTodo}/>
         </div>

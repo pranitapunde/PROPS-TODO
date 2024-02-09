@@ -20,6 +20,22 @@
 /* responsive */
 
 @media  (max-width: 768px) {
+    .main-container{
+        width: 100%;
+        height:auto;
+    }
+    .container{
+        width: 100%;
+        height:auto;
+    }
+    .navbar-brand p{
+        font-size: 18px;
+        padding-top: 10px;
+        font-weight: 700;
+
+    }
+
+
 
     
     
